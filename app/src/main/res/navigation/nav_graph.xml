@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rootFragment">
+
+    <fragment
+        android:id="@+id/rootFragment"
+        android:name="com.example.kursvalut.screens.RootFragment"
+        android:label="fragment_root"
+        tools:layout="@layout/fragment_root" />
+    <fragment
+        android:id="@+id/monobankFragment"
+        android:name="com.example.kursvalut.screens.MonobankFragment"
+        android:label="fragment_monobank"
+        tools:layout="@layout/fragment_monobank" />
+    <fragment
+        android:id="@+id/privatbankFragment"
+        android:name="com.example.kursvalut.screens.PrivatbankFragment"
+        android:label="fragment_privatbank"
+        tools:layout="@layout/fragment_privatbank" />
+</navigation>
